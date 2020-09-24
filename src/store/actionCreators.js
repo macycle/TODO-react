@@ -27,7 +27,6 @@ export const getTodolist=()=>{
     return (dispatch)=>{
         axios.get('https://www.easy-mock.com/mock/5f69e60108d0e90f8b2abf02/example/list')
         .then((res)=>{
-
             const data=res.data.data
             const action=getList(data)
             dispatch(action)
