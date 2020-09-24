@@ -1,0 +1,22 @@
+
+.container{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.ip_btn{
+    display: flex; 
+    width: 80vw;
+    margin-bottom: 5vh;
+}
+
+.ant-btn{
+    margin-left: 10px;
+}
+
+.ant-list{
+    width: 80vw;
+}
